@@ -2,6 +2,7 @@ package com.epam.learn;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
 
 import org.junit.Test;
 
@@ -17,6 +18,7 @@ public class TemperatureConverterTest {
     @Test
     public void cool() {
         assertEquals(32, converter.toFahrenheit(0));
+        fail("Test fail");
     }
 
     @Test
