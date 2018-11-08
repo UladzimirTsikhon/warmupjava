@@ -18,7 +18,6 @@ public class TemperatureConverterTest {
     @Test
     public void cool() {
         assertEquals(32, converter.toFahrenheit(0));
-        fail("Test fail");
     }
 
     @Test
