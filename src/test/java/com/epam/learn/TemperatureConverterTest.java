@@ -14,19 +14,4 @@ public class TemperatureConverterTest {
     public void cold() {
         assertEquals(-4, converter.toFahrenheit(-20));
     }
-
-    @Test
-    public void cool() {
-        assertEquals(32, converter.toFahrenheit(0));
-    }
-
-    @Test
-    public void medium() {
-        assertEquals(59, converter.toFahrenheit(15));
-    }
-
-    @Test
-    public void hot() {
-        assertEquals(104, converter.toFahrenheit(40));
-    }
 }
